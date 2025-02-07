@@ -7841,7 +7841,7 @@ provide your reasoning based on your answer to part (a)</em>.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [1]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [43]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">## code given to get started</span>
@@ -7873,7 +7873,7 @@ style to Table 1 with observations 1-6 as the row headers.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [44]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># test point coords</span>
@@ -8096,7 +8096,7 @@ use <code>NumPy</code> to implement euclidean distance function.</em></p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [45]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Skeleton code for part (a) to write your own kNN classifier</span>
@@ -8134,7 +8134,7 @@ use <code>NumPy</code> to implement euclidean distance function.</em></p>
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
 <pre>
-<span class="ansi-cyan-fg">  Cell </span><span class="ansi-green-fg">In[9], line 7</span>
+<span class="ansi-cyan-fg">  Cell </span><span class="ansi-green-fg">In[45], line 7</span>
 <span class="ansi-red-fg">    def fit(self, x, y):</span>
     ^
 <span class="ansi-red-fg">IndentationError</span><span class="ansi-red-fg">:</span> expected an indented block after function definition on line 5
@@ -8217,47 +8217,47 @@ or high dimensions.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [46]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="n">X_train_low</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">loadtxt</span><span class="p">(</span>
-    <span class="s2">"https://raw.githubusercontent.com/kylebradbury/ids705/refs/heads/main/notebooks/"</span>
-    <span class="s2">"data/a2/A2_Q4_X_train_low.csv"</span><span class="p">,</span>
+    <span class="s2">"https://raw.githubusercontent.com/kylebradbury/ids705/refs/heads/main/"</span>
+    <span class="s2">"notebooks/data/a2/A2_Q4_X_train_low.csv"</span><span class="p">,</span>
     <span class="n">delimiter</span><span class="o">=</span><span class="s2">","</span><span class="p">,</span>
 <span class="p">)</span>
 <span class="n">y_train_low</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">loadtxt</span><span class="p">(</span>
-    <span class="s2">"https://raw.githubusercontent.com/kylebradbury/ids705/refs/heads/main/notebooks/"</span>
-    <span class="s2">"data/a2/A2_Q4_y_train_low.csv"</span><span class="p">,</span>
+    <span class="s2">"https://raw.githubusercontent.com/kylebradbury/ids705/refs/heads/main/"</span>
+    <span class="s2">"notebooks/data/a2/A2_Q4_y_train_low.csv"</span><span class="p">,</span>
     <span class="n">delimiter</span><span class="o">=</span><span class="s2">","</span><span class="p">,</span>
 <span class="p">)</span>
 <span class="n">X_test_low</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">loadtxt</span><span class="p">(</span>
-    <span class="s2">"https://raw.githubusercontent.com/kylebradbury/ids705/refs/heads/main/notebooks/"</span>
-    <span class="s2">"data/a2/A2_Q4_X_test_low.csv"</span><span class="p">,</span>
+    <span class="s2">"https://raw.githubusercontent.com/kylebradbury/ids705/refs/heads/main/"</span>
+    <span class="s2">"notebooks/data/a2/A2_Q4_X_test_low.csv"</span><span class="p">,</span>
     <span class="n">delimiter</span><span class="o">=</span><span class="s2">","</span><span class="p">,</span>
 <span class="p">)</span>
 <span class="n">y_test_low</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">loadtxt</span><span class="p">(</span>
-    <span class="s2">"https://raw.githubusercontent.com/kylebradbury/ids705/refs/heads/main/notebooks/"</span>
-    <span class="s2">"data/a2/A2_Q4_y_test_low.csv"</span><span class="p">,</span>
+    <span class="s2">"https://raw.githubusercontent.com/kylebradbury/ids705/refs/heads/main/"</span>
+    <span class="s2">"notebooks/data/a2/A2_Q4_y_test_low.csv"</span><span class="p">,</span>
     <span class="n">delimiter</span><span class="o">=</span><span class="s2">","</span><span class="p">,</span>
 <span class="p">)</span>
 <span class="n">X_train_high</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">loadtxt</span><span class="p">(</span>
-    <span class="s2">"https://raw.githubusercontent.com/kylebradbury/ids705/refs/heads/main/notebooks/"</span>
-    <span class="s2">"data/a2/A2_Q4_X_train_high.csv"</span><span class="p">,</span>
+    <span class="s2">"https://raw.githubusercontent.com/kylebradbury/ids705/refs/heads/main/"</span>
+    <span class="s2">"notebooks/data/a2/A2_Q4_X_train_high.csv"</span><span class="p">,</span>
     <span class="n">delimiter</span><span class="o">=</span><span class="s2">","</span><span class="p">,</span>
 <span class="p">)</span>
 <span class="n">y_train_high</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">loadtxt</span><span class="p">(</span>
-    <span class="s2">"https://raw.githubusercontent.com/kylebradbury/ids705/refs/heads/main/notebooks/"</span>
-    <span class="s2">"data/a2/A2_Q4_y_train_high.csv"</span><span class="p">,</span>
+    <span class="s2">"https://raw.githubusercontent.com/kylebradbury/ids705/refs/heads/main/"</span>
+    <span class="s2">"notebooks/data/a2/A2_Q4_y_train_high.csv"</span><span class="p">,</span>
     <span class="n">delimiter</span><span class="o">=</span><span class="s2">","</span><span class="p">,</span>
 <span class="p">)</span>
 <span class="n">X_test_high</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">loadtxt</span><span class="p">(</span>
-    <span class="s2">"https://raw.githubusercontent.com/kylebradbury/ids705/refs/heads/main/notebooks/"</span>
-    <span class="s2">"data/a2/A2_Q4_X_test_high.csv"</span><span class="p">,</span>
+    <span class="s2">"https://raw.githubusercontent.com/kylebradbury/ids705/refs/heads/main/"</span>
+    <span class="s2">"notebooks/data/a2/A2_Q4_X_test_high.csv"</span><span class="p">,</span>
     <span class="n">delimiter</span><span class="o">=</span><span class="s2">","</span><span class="p">,</span>
 <span class="p">)</span>
 <span class="n">y_test_high</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">loadtxt</span><span class="p">(</span>
-    <span class="s2">"https://raw.githubusercontent.com/kylebradbury/ids705/refs/heads/main/notebooks/"</span>
-    <span class="s2">"data/a2/A2_Q4_y_test_high.csv"</span><span class="p">,</span>
+    <span class="s2">"https://raw.githubusercontent.com/kylebradbury/ids705/refs/heads/main/"</span>
+    <span class="s2">"notebooks/data/a2/A2_Q4_y_test_high.csv"</span><span class="p">,</span>
     <span class="n">delimiter</span><span class="o">=</span><span class="s2">","</span><span class="p">,</span>
 <span class="p">)</span>
 </pre></div>
@@ -8587,7 +8587,7 @@ class in a different color.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
@@ -8690,7 +8690,7 @@ a different dataset.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [47]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Build a grid of points for plotting</span>
@@ -8882,7 +8882,7 @@ set and the previously created dataset your training set.</p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># create the test set of 1000 random samples</span>
@@ -9100,19 +9100,19 @@ module.</em></p>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [34]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 
 <span class="n">train</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span>
-    <span class="s2">"https://raw.githubusercontent.com/kylebradbury/ids705/refs/heads/main/notebooks/"</span>
-    <span class="s2">"data/a2/A2_Q7_train.csv"</span>
+    <span class="s2">"https://raw.githubusercontent.com/kylebradbury/ids705/refs/heads/main/"</span>
+    <span class="s2">"notebooks/data/a2/A2_Q7_train.csv"</span>
 <span class="p">)</span>
 <span class="n">test</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span>
-    <span class="s2">"https://raw.githubusercontent.com/kylebradbury/ids705/refs/heads/main/notebooks/"</span>
-    <span class="s2">"data/a2/A2_Q7_test.csv"</span>
+    <span class="s2">"https://raw.githubusercontent.com/kylebradbury/ids705/refs/heads/main/"</span>
+    <span class="s2">"notebooks/data/a2/A2_Q7_test.csv"</span>
 <span class="p">)</span>
 
 <span class="n">x_train_Q7</span> <span class="o">=</span> <span class="n">train</span><span class="p">[</span><span class="s2">"x"</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
